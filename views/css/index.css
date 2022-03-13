@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+img {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    font-style: normal
+}
+
+a {
+    text-decoration: none;
+    color: #446adf;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* 头部logo区域 */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    background-color: #446adf;
+    border-bottom: 1px solid #ccc;
+}
+
+.hearder-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+}
+
+header img {
+    width: 40px;
+}
+
+header .logo img {
+    width: 120px;
+}
+
+header .iconfont {
+    color: #fff;
+    font-size: 35px;
+}
+
+
+/* banner区域 */
+
+.banner {
+    margin-top: 65px;
+    height: 170px;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* 课程列表部分 */
+
+.course-list {
+    width: 100%;
+    height: 242px;
+    margin: 16px 0;
+    background-color: #fff;
+}
+
+.course-list p {
+    width: 100%;
+    height: 52px;
+    font-size: 18px;
+    line-height: 52px;
+    color: #446adf;
+    text-align: center;
+}
+
+.course-list .list-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 172px;
+}
+
+.course-list .list-content a {
+    width: 124px;
+    height: 70px;
+}
+
+.course-list .list-content .course-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 27px;
+}
+
+.list-content .course-image.one,
+.course-image.six {
+    background: url('../images/fe-list.png') center center/cover;
+}
+
+.list-content .course-image.two {
+    background: url('../images/python.png') center center/cover;
+}
+
+.list-content .course-image.three {
+    background: url('../images/java.png') center center/cover;
+}
+
+.list-content .course-image.four {
+    background: url('../images/ui.png') center center/cover;
+}
+
+.list-content .course-image.five {
+    background: url('../images/data.png') center center/cover;
+}
+
+
+/* shopping课程部分 */
+
+.course-table {
+    background-color: #fff;
+    width: 100%;
+    min-height: 600px;
+    margin-bottom: 59px;
+}
+
+#courseList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-table .list-title {
+    width: 100%;
+    height: 52px;
+    font-size: 18px;
+    line-height: 52px;
+    color: #446adf;
+    text-align: center;
+}
+
+.course-table .table-list-box {
+    min-height: 400px;
+    width: 100%;
+}
+
+.course-table .table-list-box li {
+    width: 176px;
+    height: 158px;
+    margin: 0 5px 10px;
+}
+
+.table-list-box li .table-list-img {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table-list-box li .table-list-img img {
+    width: 100%;
+}
+
+.list-item-content h4 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.list-item-content .con {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.list-item-content .con .person {
+    color: #d0d0d0;
+}
+
+
+/* 底部导航栏 */
+
+.toolbar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 58px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.toolbar ul {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.toolbar ul li {
+    float: left;
+    width: 40px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.toolbar ul .iconfont {
+    font-size: 28px;
+}
